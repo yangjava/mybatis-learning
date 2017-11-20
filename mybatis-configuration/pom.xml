@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.mybatis</groupId>
+    <artifactId>mybatis-learning</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>mybatis-configuration</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>mybatis-typeHandler</module>
+  	<module>mybatis-enumOrdinalTypeHandler</module>
+  	<module>mybatis-typeAlias</module>
+  	<module>mybatis-enumTypeHandler</module>
+  	<module>mybaits-myEnumTypeHandler</module>
+  	<module>mybatis-objectFactory</module>
+  	<module>mybatis-plugin</module>
+  </modules>
+</project>
